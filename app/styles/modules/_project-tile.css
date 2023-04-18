@@ -1,0 +1,41 @@
+.project-tile {
+    background-color: $main-grey;
+    font-size: 22px;
+    text-align: center;
+
+    &__text {
+        font-size: 2rem;
+        padding: 1rem;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    span {
+        color: $main-grey;
+        transition: color 200ms linear 100ms;
+    }
+
+    &:hover span {
+        color: orangered;
+    }
+
+    img {
+        width: 100%;
+        min-height: 350px;
+        height: calc(100% - 9.8rem);
+        object-fit: cover;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+
+#projects h1 {
+    font-size: 4rem;
+    width: fit-content;
+    margin: 2rem auto 4rem auto;
+    border-bottom: 2px solid #fff;
+
+}

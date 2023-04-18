@@ -1,0 +1,33 @@
+.navbar {
+    width: 100vw;
+    background-color: #BE3144;
+    position: fixed;
+
+     & > ul {
+        width: 100%;
+        padding: 0 2em;
+        margin: auto;
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+
+        & > li {
+            font-size: 2.5rem;
+            padding: 2rem;
+            background-color: transparent;
+            color: $main-white;
+            transition: all 150ms ease-in-out;
+
+            & > a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+
+        & > li:hover {
+            cursor: pointer;
+            background-color: $main-blue;
+            color: $bright-orange;
+        }
+    }
+}

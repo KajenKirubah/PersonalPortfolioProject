@@ -1,0 +1,24 @@
+.footer {
+    min-height: 40vh;
+    padding: 2rem;
+    background: $main-grey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__top {
+        padding-top: 2.5rem;
+    }
+
+    &__text {
+        font-size: 1.6rem;
+        font-style: italic;
+    }
+
+    &__bottom-line {
+        border: 1px solid red;
+        margin-bottom: 1.5rem;
+    }
+
+}

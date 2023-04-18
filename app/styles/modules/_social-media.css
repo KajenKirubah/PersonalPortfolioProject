@@ -1,0 +1,11 @@
+.social_media {
+    margin-top: 3%;
+    font-size: 3rem;
+
+    a {
+        color: #fff;
+        margin-right: 15px;
+        text-decoration: none;
+    }
+
+}

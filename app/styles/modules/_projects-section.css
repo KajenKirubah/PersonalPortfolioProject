@@ -1,0 +1,22 @@
+.projects-section {
+    background-color: $main-blue;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 3rem;
+        width: 100%;
+        max-width: 1280px;
+        height: 100%;
+        margin: auto;
+        place-items: center;
+        margin-bottom: 5rem;
+    }
+
+}
