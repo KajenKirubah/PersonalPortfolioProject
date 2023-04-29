@@ -21,15 +21,22 @@ section, footer {
     padding: 2rem;
     overflow: hidden;
 }
-
 section {
-    min-height: 100vh;
+    min-height: 50vh;
+
+    @mixin atSmall {
+        min-height: 100vh;
+    }
 }
 h1 {
     font-size: 5rem;
 }
 h2 {
-    font-size: 4rem;
+    font-size: 3rem;
+
+    @mixin atSmall {
+        font-size: 4rem;
+    }
 }
 
 .fa-coffee {

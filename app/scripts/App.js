@@ -1,4 +1,6 @@
 import '../styles/styles.css';
 import * as smooth from './modules/_smooth-scroll';
+import MobileMenu from './modules/_mobile-menu';
 
-smooth.smoothScroll();
+new MobileMenu();
+smooth.smoothScrollTo();

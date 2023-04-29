@@ -1,11 +1,15 @@
 .footer {
-    min-height: 40vh;
+    min-height: 25vh;
     padding: 2rem;
     background: $main-grey;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @mixin atSmall {
+        min-height: 40vh;
+    }
 
     &__top {
         padding-top: 2.5rem;

@@ -1,33 +1,77 @@
-.navbar {
-    width: 100vw;
-    background-color: #BE3144;
-    position: fixed;
+/* TODO: hamburger nav for mobile screens less than 600px
+    mixin for min-width: 600px
+    display: none on hamburger menu icon above 600px
+    research hamburger menu more on the udemy video
+*/
 
-     & > ul {
+.navbar {
+    box-sizing: border-box;
+    width: 0%;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    z-index: -2;
+    opacity: 0;
+    transform: scale(1.2);
+    transform-origin: 0 100%;
+    transition: all 200ms ease-out;
+
+    @mixin atSmall {
         width: 100%;
-        padding: 0 2em;
+        background-color: $primary-col;
+        position: fixed;
+        transform: scale(1);
+        opacity: 1;
+        z-index: 1;
+    }
+
+    &--is-open {
+        width: 100%;
+        opacity: 1;
+        z-index: 1;
+        transform: scale(1);
+        background-color: $primary-col;
+    }
+
+    &>ul {
+        width: 80%;
+        padding: 0;
         margin: auto;
         list-style-type: none;
         display: flex;
+        flex-direction: column;
         justify-content: flex-end;
+        
 
-        & > li {
-            font-size: 2.5rem;
-            padding: 2rem;
+        @mixin atSmall {
+            width: 100%;
+            padding: 0 2em;
+            flex-direction: row;
+        }
+
+        &>li {
+            font-size: 1.6rem;
+            padding: 0;
             background-color: transparent;
             color: $main-white;
             transition: all 150ms ease-in-out;
 
-            & > a {
+            @mixin atSmall {
+                font-size: 2.5rem;
+                padding: 1rem;
+                transform: scale(1);
+            }
+
+            &>a {
                 text-decoration: none;
                 color: inherit;
             }
         }
 
-        & > li:hover {
+        &>li:hover {
             cursor: pointer;
             background-color: $main-blue;
-            color: $bright-orange;
+            color: $accent-col;
         }
     }
 }

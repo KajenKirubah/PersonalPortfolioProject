@@ -1,6 +1,11 @@
 .social_media {
     margin-top: 3%;
-    font-size: 3rem;
+    font-size: 2.2rem;
+    padding: 2rem 0;
+
+    @mixin atSmall {
+        font-size: 3rem;
+    }
 
     a {
         color: #fff;

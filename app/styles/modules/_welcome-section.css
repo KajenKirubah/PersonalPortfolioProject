@@ -1,8 +1,20 @@
+/* TODO: 
+
+    mobile responsiveness
+    make mixin and decrease height of container for mobile screens, can find this in global
+    make a feature on the paragraph element where it fades out and replaces with digital marketer
+    then maybe prints out logo one by one afterwards
+*/
+
 .welcome-section {
-    background: $main-grey;
+    background: linear-gradient(45deg, $main-blue 0%, $accent-col 50%, $primary-col 90%, $primary-col 100%);
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @mixin atSmall {
+        background: $bg-col url('../assets/guy_computer_nature.jpg') no-repeat center center / cover;
+    }
 }

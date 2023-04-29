@@ -1,19 +1,29 @@
 .section {
 
     &__title {
-        color: $main-white;
+        color: $text-col;
         font-family: "Raleway", sans-serif;
+        margin-bottom: 1rem;
 
         &--underline {
             text-decoration: underline;
             margin-bottom: 1rem;
         }
+
+        &--dark {
+            color: $text-col-dark;
+        }
     }
 
     &__subtitle {
-        font-size: 3.3rem;
-        color: $main-red;
+        font-size: 2.1rem;
+        color: $secondary-col;
         font-style: italic;
+        font-weight: 600;
+
+        @mixin atSmall {
+            font-size: 3.3rem;
+        }
 
         &--small {
             font-size: 2.8rem;

@@ -18,12 +18,15 @@
           <li><a href="#profile-link">Contact</a></li>
         </ul>
       </nav>
+      <div class="mobile-menu">
+        <div class="mobile-menu__middle"></div>
+      </div>
     </header>
     <main>
       <section class="section welcome-section" id="welcome-section">
         <div class="centered-content">
-            <h1 class="section__title">Hey I am Kajen</h1>
-            <p class="section__subtitle">a web developer</p>
+          <h1 class="section__title section__title--dark">Hey I am Kajen</h1>
+          <p class="section__subtitle">a web developer</p>
         </div>
       </section>
       <section class="projects-section" id="projects">
@@ -72,10 +75,17 @@
         </div>
       </section>
     </main>
-    <footer class="footer" >
+    <footer class="footer">
       <div class="footer__top">
         <h2 class="section__title">Lets work together...</h2>
-        <p class="section__subtitle section__subtitle--small section__subtitle--coffee">How do you take your coffee? <i class="fas fa-coffee"></i></p>
+        <p class="section__subtitle section__subtitle--small">
+          How do you take your <span class="section__subtitle--coffee">coffee?</span>
+          <i class="fas fa-coffee" style="position: relative;">
+            <i class="fas fa-cloud" style="position: absolute; font-size: 0.5em; top: -1em; left: 1.0em; opacity: 0.15; transform: skew(-40deg) scaleY(1.7) scaleX(0.9) ;"></i>
+          </i>
+        </p>
+      </div>
+      <div class="footer__bottom">
         <div class="social_media" id="profile-link">
           <a href="" target="_blank">
             <i class="fab fa-facebook-square"></i>
@@ -90,8 +100,6 @@
             Twitter
           </a>
         </div>
-      </div>
-      <div class="footer__bottom">
         <hr class="footer__bottom-line" />
         <p class="footer__text">**This is a work in progress portfolio.<br />© design provided by FreeCodeCamp, built by Kajen</p>
       </div>

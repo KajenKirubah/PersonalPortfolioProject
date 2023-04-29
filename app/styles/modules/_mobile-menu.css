@@ -1,0 +1,40 @@
+.mobile-menu {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 5;
+
+    @mixin atSmall {
+        display: none; 
+    }
+
+    &::before {
+        content:"";
+        width: 30px;
+        height: 3px;
+        position: absolute;
+        top: 0px;
+        background-color: white;
+    
+    }
+
+    &__middle {
+        width: 30px;
+        height: 3px;
+        position: absolute;
+        top: 14px;
+        background-color: white;
+    }
+
+    &::after {
+        content: "";
+        width: 30px;
+        height: 3px;
+        position: absolute;
+        bottom: 0px;
+        background-color: white;
+    }
+}

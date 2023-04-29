@@ -14,7 +14,7 @@
         width: 100%;
         max-width: 1280px;
         height: 100%;
-        margin: auto;
+        margin: 0 auto;
         place-items: center;
         margin-bottom: 5rem;
     }
