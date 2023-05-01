@@ -1,10 +1,10 @@
 .mobile-menu {
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     position: absolute;
     right: 20px;
-    top: 10px;
+    top: 20px;
     z-index: 5;
 
     @mixin atSmall {
@@ -13,28 +13,49 @@
 
     &::before {
         content:"";
-        width: 30px;
+        width: 25px;
         height: 3px;
         position: absolute;
-        top: 0px;
+        top: 0;
+        left: 0;
         background-color: white;
-    
+        transform-origin: 0 0;
+        transition: transform 200ms ease-out;
     }
 
     &__middle {
-        width: 30px;
+        width: 25px;
         height: 3px;
         position: absolute;
-        top: 14px;
+        top: 11px;
+        left: 0;
         background-color: white;
+        opacity: 1;
+        transform-origin: 0 50%;
+        transition: all 400ms ease-out;
     }
-
     &::after {
         content: "";
-        width: 30px;
+        width: 25px;
         height: 3px;
         position: absolute;
-        bottom: 0px;
+        bottom: 0;
+        left: 0;
         background-color: white;
+        transform-origin: 0 100%;
+        transition: transform 200ms ease-out;
+    }
+}
+
+.mobile-menu__close-x {
+    &::before {
+        transform: rotate(45deg) translateY(-1px) scaleX(1.35);
+    }
+    .mobile-menu__middle {
+        opacity: 0;
+        transform: scaleX(0);
+    }
+    &::after {
+        transform: rotate(-45deg) scaleX(1.35) translateY(1px);
     }
 }

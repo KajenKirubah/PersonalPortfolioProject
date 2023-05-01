@@ -2,8 +2,31 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const fse = require('fs-extra');
+const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 
 const currentTask = process.env.npm_lifecycle_event === "build";
+
+
+const projects = fse.readJSONSync('./projects.json');
+
+const projectTemplate = fse.readFileSync('./app/project-template.html', 'utf-8');
+
+
+// Create HtmlWebpackPlugin instances for each project
+const projectPages = projects.map(project => {
+  return new HtmlWebpackPlugin({
+    filename: project.page,
+    template: './app/project-template.html',
+    title: project.title,
+    description: project.description,
+    technologies: project.technologies || []
+  });
+});
+
+function createTechnologiesList(technologies) {
+  return technologies.map(tech => `<li>${tech}</li>`).join('');
+}
 
 const PostCSSPlugins = [
     require("postcss-mixins"), 
@@ -12,6 +35,29 @@ const PostCSSPlugins = [
     require('postcss-simple-vars'), 
     require("autoprefixer")
 ];
+
+class RunAfterCompile {
+  apply(compiler) {
+    compiler.hooks.done.tap("copy images", () => {
+      fse.copySync("./app/assets", "./docs/assets/images");
+    });
+  }
+}
+
+let pages = fse.readdirSync('./app').filter((file) => { 
+  return file.endsWith(".html") && !projects.some(project => project.page === file) && file != 'project-template.html';
+}).map(page => {
+  return new HtmlWebpackPlugin({filename: page, template: `./app/${page}`})
+});
+
+let plugins = [
+  ...pages,
+  ...projectPages,
+  new MiniCssExtractPlugin({filename: 'styles.[contenthash].css'}), 
+  new RunAfterCompile(), 
+  new WebpackManifestPlugin()
+];
+
 
 module.exports = {
   mode: "development",
@@ -23,6 +69,7 @@ module.exports = {
     path: path.resolve(__dirname, "docs"),
     filename: "[name].[contenthash].js",
     chunkFilename: "[name].[contenthash].js",
+    publicPath: '/'
   },
   module: {
     rules: [
@@ -41,15 +88,16 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.js$/i,
+        exclude: /(node_modules)/,
+        use: {
+          loader: 'babel-loader'
+        }
+      }
     ],
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      filename: currentTask ? "index.[contenthash].html" : 'index.html',
-      template: "./app/index.html",
-    }),
-    new MiniCssExtractPlugin({ filename: "styles.[contenthash].css" }),
-  ],
+  plugins: plugins,
   optimization: {
     splitChunks: {
       chunks: "all",
@@ -69,3 +117,15 @@ module.exports = {
     },
   },
 };
+
+/*
+
+[
+    new HtmlWebpackPlugin({
+      filename: currentTask ? "index.[contenthash].html" : 'index.html',
+      template: "./app/index.html",
+    }),
+    new MiniCssExtractPlugin({ filename: "styles.[contenthash].css" }),
+  ]
+
+*/

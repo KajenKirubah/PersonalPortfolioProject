@@ -11,6 +11,7 @@ class MobileMenu {
 
     toggleTheMenu() {
         this.navBar.classList.toggle("navbar--is-open")
+        this.menuIcon.classList.toggle("mobile-menu__close-x");
     }
 }
 

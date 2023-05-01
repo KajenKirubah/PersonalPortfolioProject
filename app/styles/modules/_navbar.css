@@ -9,14 +9,17 @@
     width: 0%;
     background-color: transparent;
     position: absolute;
-    left: 0;
     z-index: -2;
     opacity: 0;
+    left: 80%;
     transform: scale(1.2);
-    transform-origin: 0 100%;
-    transition: all 200ms ease-out;
+    transform-origin: 100% 50%; /* horizontal and vertical position of transformation
+    for ex, 0 0 would be top left corner
+    */
+    transition: all 500ms ease-out;
 
     @mixin atSmall {
+        left: 0;
         width: 100%;
         background-color: $primary-col;
         position: fixed;
@@ -27,30 +30,33 @@
 
     &--is-open {
         width: 100%;
+        left: 0;
         opacity: 1;
         z-index: 1;
         transform: scale(1);
-        background-color: $primary-col;
+        background-color: rgba(45, 64, 89, 0.5);
+
     }
 
     &>ul {
         width: 80%;
-        padding: 0;
+        padding: 0.5rem 0;
         margin: auto;
         list-style-type: none;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        align-items: center;
         
 
         @mixin atSmall {
             width: 100%;
             padding: 0 2em;
             flex-direction: row;
+            justify-content: flex-end;
         }
 
         &>li {
-            font-size: 1.6rem;
+            font-size: 1.5rem;
             padding: 0;
             background-color: transparent;
             color: $main-white;
