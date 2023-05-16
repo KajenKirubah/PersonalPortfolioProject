@@ -2,7 +2,7 @@
     min-height: 50vh;
 
     @mixin atSmall {
-        min-height: 100vh;
+        min-height: 80vh;
     }
 
     &__title {
@@ -17,6 +17,10 @@
 
         &--dark {
             color: $text-col-dark;
+        }
+
+        &--light {
+            color: $gentle-sky;
         }
 
         &--portfolio {
@@ -54,6 +58,14 @@
 
         &--coffee {
             color: $coffee-brown;
+        }
+
+        &--light {
+            color: $gentle-sky;
+        }
+
+        &--light-two {
+            color: $main-white;
         }
 
         &--dark {
