@@ -10,57 +10,70 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <nav class="navbar" id="navbar">
-        <ul>
-          <li><a href="#welcome-section">About</a></li>
-          <li><a href="#projects">Work</a></li>
-          <li><a href="#profile-link">Contact</a></li>
-          <li><a href="#profile-link">TESTING</a></li>
-        </ul>
-      </nav>
-      <div class="mobile-menu">
-        <div class="mobile-menu__middle"></div>
-      </div>
-    </header>
-    <main>
-      <h1><%= htmlWebpackPlugin.options.title %></h1>
-      <p><%= htmlWebpackPlugin.options.description %></p>
-      <ul>
-        <% htmlWebpackPlugin.options.technologies.forEach(function(tech) { %>
-          <li><%= tech %></li>
-        <% }) %>
-      </ul>
-      <img src="<%= htmlWebpackPlugin.options.image %>" alt="<%= htmlWebpackPlugin.options.title %>">
-    </main>
-    <footer class="footer">
-      <div class="footer__top">
-        <h2 class="section__title">Lets work together...</h2>
-        <p class="section__subtitle section__subtitle--small">
-          How do you take your <span class="section__subtitle--coffee">coffee?</span>
-          <i class="fas fa-coffee" style="position: relative;">
-            <i class="fas fa-cloud" style="position: absolute; font-size: 0.5em; top: -1em; left: 1.0em; opacity: 0.15; transform: skew(-40deg) scaleY(1.7) scaleX(0.9) ;"></i>
-          </i>
-        </p>
-      </div>
-      <div class="footer__bottom">
-        <div class="social_media" id="profile-link">
-          <a href="" target="_blank">
-            <i class="fab fa-facebook-square"></i>
-            Facebook
-          </a>
-          <a href="" target="_blank">
-            <i class="fab fa-github"></i>
-            Github
-          </a>
-          <a href="" target="_blank">
-            <i class="fab fa-twitter"></i>
-            Twitter
-          </a>
+    <div class="main-container">
+      <header>
+        <nav class="navbar" id="navbar">
+          <ul>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/projects.html">Work</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-menu">
+          <div class="mobile-menu__middle"></div>
         </div>
-        <hr class="footer__bottom-line" />
-        <p class="footer__text">**This is a work in progress portfolio.<br />© design provided by FreeCodeCamp, built by Kajen</p>
-      </div>
-    </footer>
+      </header>
+      <main class="main-container__content">
+        <section class="section__portfolio-page">
+          <div class="section__portfolio-page--col-1">
+            <h1 class="section__title section__title--dark section__title--portfolio"><%= htmlWebpackPlugin.options.title %></h1>
+            <p class="section__subtitle section__subtitle--portfolio"><%= htmlWebpackPlugin.options.description %></p>
+            <ul class="technologies-list">
+              <% htmlWebpackPlugin.options.technologies.forEach(function(tech) { %>
+              <li><%= tech %></li>
+              <% }) %>
+            </ul>
+            <img src="<%= htmlWebpackPlugin.options.image %>" alt="<%= htmlWebpackPlugin.options.title %>" />
+            <p class="general-copy"><%= htmlWebpackPlugin.options.text %></p>
+            <div>
+              <% htmlWebpackPlugin.options.buttons.forEach(function(button) { %>
+              <a href="<%= button.href %>" class="cta-button"><%= button.title %></a> 
+              <% }) %>
+            </div>
+          </div>
+          <div class="section__portfolio-page--col-2"><img src="<%= htmlWebpackPlugin.options.image %>" alt="<%= htmlWebpackPlugin.options.title %>" /></div>
+        </section>
+        
+      </main>
+      <footer class="footer">
+        <div class="footer__top">
+          <h2 class="section__title">Lets work together...</h2>
+          <p class="section__subtitle section__subtitle--small">
+            How do you take your <span class="section__subtitle--coffee">coffee?</span>
+            <i class="fas fa-coffee" style="position: relative;">
+              <i class="fas fa-cloud" style="position: absolute; font-size: 0.5em; top: -1em; left: 1.0em; opacity: 0.15; transform: skew(-40deg) scaleY(1.7) scaleX(0.9) ;"></i>
+            </i>
+          </p>
+        </div>
+        <div class="footer__bottom">
+          <div class="social_media" id="profile-link">
+            <a href="" target="_blank">
+              <i class="fab fa-facebook-square"></i>
+              Facebook
+            </a>
+            <a href="" target="_blank">
+              <i class="fab fa-github"></i>
+              Github
+            </a>
+            <a href="" target="_blank">
+              <i class="fab fa-twitter"></i>
+              Twitter
+            </a>
+          </div>
+          <hr class="footer__bottom-line" />
+          <p class="footer__text">**This is a work in progress portfolio.<br />© design provided by FreeCodeCamp, built by Kajen</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

@@ -1,13 +1,109 @@
 $bright-orange: #ff9900;
-$main-white: #f0f0f0;
 $main-red: #be3144;
 $bg-col: #f5f5f5;
 $text-col: #333;
 $text-col-dark: #222;
 $secondary-col: #bbb;
-$primary-col: #2D4059;
-$main-blue: #45567d;
-$accent-col: #EA5455;
-$main-grey: #303841;
 $coffee-brown: #A0522D;
 $coffee-cup: #F5DEB3;
+
+/* set of off white text colours for the list in the features section */
+
+$feature-text-col: #f5fffa; /* 5. mint cream */
+$feature-text-col: #f0fff0; /* 4. honeydew */
+$feature-text-col: #fffafa; /* 3. snow */
+$feature-text-col: #dcdcdc; /* 2. gainsboro */
+$feature-text-col: #d3e3e3; /* 1. light gray */
+
+/* end of off white text colours for the list in the features section */
+
+/* BG Colours being used on features list in projects page */
+
+$feature-text-col-bg: #196E60;
+$feature-text-col-bg: #14544A;
+$feature-text-col-bg: #28BAA2; /* used on features list in projects page */
+$feature-text-col-bg: #23A08C;
+$feature-text-col-bg: #1E8776;
+
+
+$feature-text-col-bg: #20948B;
+$feature-text-col-bg: #1B807A;
+$feature-text-col-bg: #166C69; /* used on features list in projects page */
+$feature-text-col-bg: #115859;
+$feature-text-col-bg: #0C4448;
+
+$feature-text-col-bg: #054945;
+$feature-text-col-bg: #199A89;
+$feature-text-col-bg: #148578;
+$feature-text-col-bg: #166C69; /* used on features list in projects page */
+$feature-text-col-bg: #0A5D56;
+
+
+/* end bg colours being used on features list in project page */
+
+/* Colours being used set #1  Balanced Professionalism & Cheerfulness */
+
+$primary-col: #2D4059; /* used on navbar for desktop */
+$main-white: #f0f0f0; /* used in text in navbar */
+$main-blue: #45567d; /* used in navbar li bg colour when hover */
+$accent-col: #EA5455; /* used in navbar li font colour when highlighted */
+$main-grey: #303841; /* used as bg colour of the individual project boxes and for the footer bg colour */
+$gentle-sky: #F3F7FA; /* used for main page projects section bg colour */
+$button-colour: #1f3a60;
+/* end colours being used */
+
+
+/* Colours being used set #2 Bright & Cheerful Professional */
+
+$primary-col: #3C6E71; /* used on navbar for desktop */
+$main-white: #f0f0f0; /* used in text in navbar */
+$main-blue: #66999B; /* used in navbar li bg colour when hover */
+$accent-col: #EC9A29; /* used in navbar li font colour when highlighted */
+$main-grey: #2B3A42; /* used as bg colour of the individual project boxes and for the footer bg colour */
+$gentle-sky: #F3F7FA; /* used for main page projects section bg colour */
+$button-colour: #1f3a60;
+/* end colours being used */
+
+/* Colours being used set #3 Extra Bright & Vibrant Cheer */
+
+$primary-col: #4C8C9E; /* used on navbar for desktop */
+$main-white: #f0f0f0; /* used in text in navbar */
+$main-blue: #80B1C9; /* used in navbar li bg colour when hover */
+$accent-col: #FF9F1C; /* used in navbar li font colour when highlighted */
+$main-grey: #37474F; /* used as bg colour of the individual project boxes and for the footer bg colour */
+$gentle-sky: #F3F7FA; /* used for main page projects section bg colour */
+$button-colour: #1f3a60;
+/* end colours being used */
+
+/* Colours being used set #4 super professional, very little cheerfulness */
+
+$primary-col: #1C2833; /* used on navbar for desktop */
+$main-white: #F0F0F0; /* used in text in navbar */
+$main-blue: #34495E; /* used in navbar li bg colour when hover */
+$accent-col: #7B8D93; /* used in navbar li font colour when highlighted */
+$main-grey: #212F3D; /* used as bg colour of the individual project boxes and for the footer bg colour */
+$gentle-sky: #F3F7FA; /* used for main page projects section bg colour */
+$button-colour: #1f3a60;
+/* end colours being used */
+
+/* Colours being used set #5 No professionalism, very cheerful */
+
+$primary-col: #FFD700; /* used on navbar for desktop */
+$main-white: #F0F0F0; /* used in text in navbar */
+$main-blue: #FFC61A; /* used in navbar li bg colour when hover */
+$accent-col: #FF5733; /* used in navbar li font colour when highlighted */
+$main-grey: #FFA07A; /* used as bg colour of the individual project boxes and for the footer bg colour */
+$gentle-sky: #F3F7FA; /* used for main page projects section bg colour */
+$button-colour: #1f3a60;
+/* end colours being used */
+
+
+/*----- currently set #3 being used now: ---- */
+$primary-col: #4C8C9E; /* used on navbar for desktop */
+$main-white: #f0f0f0; /* used in text in navbar */
+$main-blue: #80B1C9; /* used in navbar li bg colour when hover */
+$accent-col: #FF9F1C; /* used in navbar li font colour when highlighted */
+$main-grey: #37474F; /* used as bg colour of the individual project boxes and for the footer bg colour */
+$gentle-sky: #F3F7FA; /* used for main page projects section bg colour */
+$button-colour: #1f3a60; 
+/* -- end -- */

@@ -15,6 +15,6 @@
     justify-content: center;
 
     @mixin atSmall {
-        background: $bg-col url('../assets/guy_computer_nature.jpg') no-repeat center center / cover;
+        background: $bg-col url('../assets/images/guy_computer_nature.jpg') no-repeat center center / cover;
     }
 }

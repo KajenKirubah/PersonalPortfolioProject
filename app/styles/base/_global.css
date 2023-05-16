@@ -21,13 +21,7 @@ section, footer {
     padding: 2rem;
     overflow: hidden;
 }
-section {
-    min-height: 50vh;
 
-    @mixin atSmall {
-        min-height: 100vh;
-    }
-}
 h1 {
     font-size: 5rem;
 }

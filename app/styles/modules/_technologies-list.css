@@ -1,0 +1,41 @@
+.technologies-list {
+    padding: 0.5rem 0;
+    margin: 1rem auto;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+
+
+    &>li {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        margin-right: 1rem;
+        background-color: $main-blue;
+        color: $text-col;
+        
+
+        @mixin atSmall {
+            font-size: 1.8rem;
+            padding: 1rem;
+        }
+    }
+
+    &--projects {
+        margin: 2rem 0;
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        align-items: stretch;
+        justify-items: stretch;
+
+        & > li {
+            margin: 0;
+            text-align: left;
+            background-color: $feature-text-col-bg;
+            color: $feature-text-col;
+        }
+    }
+
+}

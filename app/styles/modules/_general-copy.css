@@ -1,0 +1,21 @@
+.general-copy {
+    font-size: 1.6rem;
+    color: $text-col;
+    font-weight: 400;
+    margin: 2rem 0;
+    line-height: 1.7;
+    font-family: helvetica;
+    text-align: justify;
+
+    
+    &--paragraph-two-col {
+        column-width: 40rem;
+        column-gap: 3.5rem;
+    }
+
+    @mixin atSmall {
+        font-size: 2.4rem;
+        margin-top: 0;
+    }
+
+}

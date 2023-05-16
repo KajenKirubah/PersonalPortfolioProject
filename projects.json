@@ -1,19 +1,183 @@
 [
     {
       "id": 1,
-      "title": "Project 1",
-      "description": "A brief description of project 1",
+      "title": "Tribute Page",
+      "description": "Certification Project - Dr. Normal Borlaug",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "image": "path/to/project-1-image.jpg",
-      "page": "project-1.html"
+      "image": "./assets/images/Dr_NormanBorlaugh_Tribute.jpg",
+      "textCopy": "The seventh section provides an overview of the interface for ChatGPT, including options to log out, toggle between dark and light mode, upgrade to a premium version, and start a new chat. The speaker also notes that starting a new chat may be useful if you want to have a totally different conversation or work on.",
+      "page": "norman_tribute.html",
+      "certification": "project-tile__certification",
+      "buttons": [
+        {
+          "title": "Github Repo",
+          "href": "https://github.com/KajenKirubah/TributePageFCC"
+        },
+        {
+          "title": "Website",
+          "href": "https://kajenkirubah.github.io/TributePageFCC/"
+        }
+      ]
     },
     {
       "id": 2,
-      "title": "Project 2",
-      "description": "A brief description of project 2",
-      "technologies": ["React", "Redux", "Node.js"],
-      "image": "path/to/project-2-image.jpg",
-      "page": "project-2.html"
+      "title": "Camper Cafe Menu",
+      "description": "Coffee and Desserts",
+      "technologies": ["HTML", "CSS", "JS"],
+      "image": "./assets/images/camper-cafe.png",
+      "textCopy": "The seventh section provides an overview of the interface for ChatGPT, including options to log out, toggle between dark and light mode, upgrade to a premium version, and start a new chat. The speaker also notes that starting a new chat may be useful if you want to have a totally different conversation or work on.",
+      "page": "camper-cafe.html",
+      "certification": "",
+      "buttons": [
+        {
+          "title": "Github Repo",
+          "href": "https://github.com/KajenKirubah/CamperCafeFCC"
+        },
+        {
+          "title": "Website",
+          "href": "https://kajenkirubah.github.io/CamperCafeFCC/"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Colored Markers",
+      "description": "Red Green and Blue",
+      "technologies": ["HTML", "CSS", "JS"],
+      "image": "./assets/images/CSS Color Markers.png",
+      "textCopy": "The seventh section provides an overview of the interface for ChatGPT, including options to log out, toggle between dark and light mode, upgrade to a premium version, and start a new chat. The speaker also notes that starting a new chat may be useful if you want to have a totally different conversation or work on.",
+      "page": "css-color-markers.html",
+      "certification": "",
+      "buttons": [
+        {
+          "title": "Github Repo",
+          "href": "https://github.com/KajenKirubah/MarkersFCC"
+        },
+        {
+          "title": "Website",
+          "href": "https://kajenkirubah.github.io/MarkersFCC"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Nutrition Label",
+      "description": "Calories, Fat, Protein, Sugar...",
+      "technologies": ["HTML", "CSS", "JS"],
+      "image": "./assets/images/nutrition label.png",
+      "textCopy": "The seventh section provides an overview of the interface for ChatGPT, including options to log out, toggle between dark and light mode, upgrade to a premium version, and start a new chat. The speaker also notes that starting a new chat may be useful if you want to have a totally different conversation or work on.",
+      "page": "nutrition-label.html",
+      "certification": "",
+      "buttons": [
+        {
+          "title": "Github Repo",
+          "href": "https://github.com/KajenKirubah/NutritionLabelFCC"
+        },
+        {
+          "title": "Website",
+          "href": "https://kajenkirubah.github.io/NutritionLabelFCC"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Picasso Painting",
+      "description": "3 Musicians Cubism",
+      "technologies": ["HTML", "CSS", "JS"],
+      "image": "./assets/images/Picasso Painting.png",
+      "textCopy": "The seventh section provides an overview of the interface for ChatGPT, including options to log out, toggle between dark and light mode, upgrade to a premium version, and start a new chat. The speaker also notes that starting a new chat may be useful if you want to have a totally different conversation or work on.",
+      "page": "picasso-painting.html",
+      "certification": "",
+      "buttons": [
+        {
+          "title": "Github Repo",
+          "href": "https://github.com/KajenKirubah/PicassoPaintingFCC"
+        },
+        {
+          "title": "Website",
+          "href": "https://kajenkirubah.github.io/PicassoPaintingFCC"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Registration Form",
+      "description": "A Form to Register your information",
+      "technologies": ["HTML", "CSS", "JS"],
+      "image": "./assets/images/Registration Form.png",
+      "textCopy": "The seventh section provides an overview of the interface for ChatGPT, including options to log out, toggle between dark and light mode, upgrade to a premium version, and start a new chat. The speaker also notes that starting a new chat may be useful if you want to have a totally different conversation or work on.",
+      "page": "registration-form.html",
+      "certification": "",
+      "buttons": [
+        {
+          "title": "Github Repo",
+          "href": "https://github.com/KajenKirubah/RegistrationFormFCC"
+        },
+        {
+          "title": "Website",
+          "href": "https://kajenkirubah.github.io/RegistrationFormFCC"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Student Quiz",
+      "description": "Accessibility in a Student Quiz",
+      "technologies": ["HTML", "CSS", "JS"],
+      "image": "./assets/images/Student Quiz.png",
+      "textCopy": "The seventh section provides an overview of the interface for ChatGPT, including options to log out, toggle between dark and light mode, upgrade to a premium version, and start a new chat. The speaker also notes that starting a new chat may be useful if you want to have a totally different conversation or work on.",
+      "page": "student-quiz.html",
+      "certification": "",
+      "buttons": [
+        {
+          "title": "Github Repo",
+          "href": "https://github.com/KajenKirubah/AccessibilityQuizFCC"
+        },
+        {
+          "title": "Website",
+          "href": "https://kajenkirubah.github.io/AccessibilityQuizFCC"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Magazine",
+      "description": "2 and 3 column magazine style layout",
+      "technologies": ["HTML", "CSS", "JS"],
+      "image": "./assets/images/magazine.png",
+      "textCopy": "The seventh section provides an overview of the interface for ChatGPT, including options to log out, toggle between dark and light mode, upgrade to a premium version, and start a new chat. The speaker also notes that starting a new chat may be useful if you want to have a totally different conversation or work on.",
+      "page": "magazine.html",
+      "certification": "",
+      "buttons": [
+        {
+          "title": "Github Repo",
+          "href": "https://github.com/KajenKirubah/MagazineGridFCC"
+        },
+        {
+          "title": "Website",
+          "href": "https://kajenkirubah.github.io/MagazineGridFCC"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Piano",
+      "description": "A mobile responsive piano",
+      "technologies": ["HTML", "CSS", "JS"],
+      "image": "./assets/images/piano.png",
+      "textCopy": "The seventh section provides an overview of the interface for ChatGPT, including options to log out, toggle between dark and light mode, upgrade to a premium version, and start a new chat. The speaker also notes that starting a new chat may be useful if you want to have a totally different conversation or work on.",
+      "page": "piano.html",
+      "certification": "",
+      "buttons": [
+        {
+          "title": "Github Repo",
+          "href": "https://github.com/KajenKirubah/PianoFCC"
+        },
+        {
+          "title": "Website",
+          "href": "https://kajenkirubah.github.io/PianoFCC"
+        }
+      ]
     }
   ]
   

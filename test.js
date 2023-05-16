@@ -35,3 +35,29 @@ module.exports = {
   ],
   // ...
 };
+
+// this method if we want to 
+fetch('path/to/projects.json')
+  .then(response => response.json())
+  .then(projects => {
+    projects.forEach(project => {
+      // Fetch the project template
+      fetch('path/to/project-template.html')
+        .then(response => response.text())
+        .then(template => {
+          // Replace placeholders with actual project data
+          let projectPage = template
+            .replace('{{title}}', project.title)
+            .replace('{{description}}', project.description)
+            .replace('{{technologies}}', project.technologies.join(', '))
+            .replace('{{image}}', project.image);
+          
+          // Save the generated project page as an HTML file
+          saveProjectPage(project.page, projectPage);
+        });
+    });
+  });
+
+function saveProjectPage(fileName, content) {
+  // Implement a function to save the generated HTML content to a file
+}

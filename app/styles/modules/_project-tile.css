@@ -2,6 +2,9 @@
     background-color: $main-grey;
     font-size: 22px;
     text-align: center;
+    transform: scale(1);
+    transition: all 200ms ease-out;
+    width: 400px;
 
     &__text {
         font-size: 2rem;
@@ -9,14 +12,22 @@
         color: #fff;
         text-decoration: none;
     }
-    
+
     span {
         color: $main-grey;
         transition: color 200ms linear 100ms;
     }
 
-    &:hover span {
-        color: orangered;
+    &__certification {
+        border: 2px solid gold;
+    }
+    &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.08);
+        position: relative;
+        transform: scale(1.05);
+        span {
+            color: orangered;
+        }
     }
 
     img {
@@ -24,6 +35,11 @@
         min-height: 350px;
         height: calc(100% - 9.8rem);
         object-fit: cover;
+        display: block;
+
+        @mixin atSmall {
+            height: 350px;
+        }
     }
 
     a {

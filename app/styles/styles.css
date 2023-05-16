@@ -1,6 +1,7 @@
 @import './base/_mixins.css';
 @import './base/_variables';
 @import './base/_global';
+@import './modules/_wrapper.css';
 @import './modules/_navbar';
 @import './modules/_welcome-section';
 @import './modules/_centered-content';
@@ -10,6 +11,11 @@
 @import './modules/_social-media';
 @import './modules/_section';
 @import './modules/_mobile-menu.css';
+@import './modules/_main-container.css';
+@import './modules/_cta-button.css';
+@import './modules/_technologies-list.css';
+@import './modules/_general-copy.css';
+@import './modules/_form.css';
 
 :root {
  

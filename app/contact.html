@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
-    <title>Personal Portfolio Webpage</title>
+    <title>My Web Development Projects</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
@@ -14,9 +14,10 @@
       <header>
         <nav class="navbar" id="navbar">
           <ul>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/projects.html">Work</a></li>
-            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="/about">Contact</a></li>
+            
           </ul>
         </nav>
         <div class="mobile-menu">
@@ -26,31 +27,30 @@
       <main class="main-container__content">
         <section class="section welcome-section" id="welcome-section">
           <div class="centered-content">
-            <h1 class="section__title section__title--dark">Hey I am Kajen</h1>
-            <p class="section__subtitle">a web developer</p>
+            <h1 class="section__title section__title--dark">Contact</h1>
+            <p class="section__subtitle">Get in touch</p>
           </div>
         </section>
-        <section class="projects-section" id="projects">
-          <h2 class="section__title section__title--underline"># Projects</h2>
-          <div class="projects-section__projects" id="projects__sub">
-            <% let index = 0; %>
-            <% htmlWebpackPlugin.options.projects.forEach(function(project) { %>
-              <% if (index < 9) { %>
-              <div class="project-tile">
-                <a target="_blank" href="./<%= project.page %>">
-                  <div class="<%= project.certification %>">
-                    <img width="400" src="<%= project.image %>" alt="a pen of my tribute page to Dr. Norman Borlaug" />
-                  </div>
-                  <span><</span>
-                  <p class="project-tile__text" style="display: inline-block"><%= project.title %></p>
-                  <span>/></span>
-                </a>
-              </div> 
-              <% }%>
-              <% index++; %>
-              <% }) %>
+        <section class="section section__contact" id="about-projects">
+          <div class="wrapper">
+            <form class="form" action="">
+              <fieldset class="form__group">
+                <div class="form__field">
+                  <label for="name">Name: </label><input type="text" id="name">
+                </div>
+                <div class="form__field">
+                  <label for="eadd">Email: </label><input type="email" id="eadd">
+                </div>
+                <div class="form__field">
+                  <label for="subject">Subject: </label><input type="text" id="subject">
+                </div>
+                <div class="form__field">
+                  <label for="message">Message: </label><textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+              </fieldset>
+              <a href="/" class="cta-button" type="submit">Submit</a>
+            </form>
           </div>
-          <a class="cta-button cta-button__projects" href="./projects.html">View More Projects</a>
         </section>
       </main>
       <footer class="footer">

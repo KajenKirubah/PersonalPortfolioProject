@@ -1,5 +1,5 @@
 .projects-section {
-    background-color: $main-blue;
+    background-color: $gentle-sky;
     width: 100%;
     text-align: center;
     display: flex;
@@ -17,6 +17,7 @@
         margin: 0 auto;
         place-items: center;
         margin-bottom: 5rem;
+        
     }
 
 }
