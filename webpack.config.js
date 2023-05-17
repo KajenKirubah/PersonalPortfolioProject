@@ -64,7 +64,7 @@ module.exports = {
     path: path.resolve(__dirname, "docs"),
     filename: "[name].[contenthash].js",
     chunkFilename: "[name].[contenthash].js",
-    publicPath: "/PersonalPortfolioProject",
+    publicPath: "/",
   },
   module: {
     rules: [
