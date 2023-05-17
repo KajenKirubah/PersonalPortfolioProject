@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "webpack serve --open",
     "build": "webpack",
+    "postbuild": "node postbuild.js",
     "server": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
