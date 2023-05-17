@@ -1,19 +1,21 @@
 const fse = require('fs-extra');
 const path = require('path');
 
-const htmlFilePaths = [
-    path.resolve(__dirname, 'docs', 'index.html'),
-    path.resolve(__dirname, 'docs', 'about.html'),
-    path.resolve(__dirname, 'docs', 'contact.html'),
-    path.resolve(__dirname, 'docs', 'projects.html')
-];
+const htmlFilePaths = [];
+
+fse.readdirSync('./docs').filter(file => {
+    return file.endsWith(".html")
+}).forEach(page => {
+    htmlFilePaths.push(path.resolve(__dirname, 'docs', page));
+})
 
 htmlFilePaths.forEach(filePath => {
     try {
         let data = fse.readFileSync(filePath, 'utf8');
-        let result = data.replace('<link rel="stylesheet" type="text/css" href="styles.css" />', '');
+        let result = data.replace('<link rel="stylesheet" type="text/css" href="styles.css" />\r\n', '');
         fse.writeFileSync(filePath, result, 'utf8');
     } catch (err) {
-        console.log(err);
-    }
-})
+        console.log(`Error processing file ${filePath}:`, err);
+    }    
+});
+
