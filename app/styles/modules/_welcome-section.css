@@ -15,24 +15,24 @@
     justify-content: center;
 
     @mixin atSmall {
-        background: $bg-col url('../assets/images/whiteboard.jpg') no-repeat center center / cover;
+        background: $bg-col url('~assets/images/whiteboard.jpg') no-repeat center center / cover;
     }
 
     &--about {
         @mixin atSmall {
-            background: $bg-col url('../assets/images/guy_computer_nature.jpg') no-repeat center center / cover;
+            background: $bg-col url('~assets/images/guy_computer_nature.jpg') no-repeat center center / cover;
         }
     }
 
     &--projects {
         @mixin atSmall {
-            background: $bg-col url('../assets/images/computer_code.jpg') no-repeat center center / cover;
+            background: $bg-col url('~assets/images/computer_code.jpg') no-repeat center center / cover;
         }
     }
 
     &--contact {
         @mixin atSmall {
-            background: $bg-col url('../assets/images/old-phone.jpg') no-repeat center center / cover;
+            background: $bg-col url('~assets/images/old-phone.jpg') no-repeat center center / cover;
         }
     }
 }
