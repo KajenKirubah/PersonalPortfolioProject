@@ -1,183 +1,182 @@
 [
-    {
-      "id": 1,
-      "title": "Tribute Page",
-      "description": "Certification Project - Dr. Normal Borlaug",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "image": "./assets/images/Dr_NormanBorlaugh_Tribute.jpg",
-      "textCopy": "This HTML and CSS project is more than just a static information page, its also a learning experience that aims to inspire and educate on the life of Dr. Norman Borlaugh.<br/><br/>  Using the power of HTML & CSS, this certification project aims to create a visually pleasing design and narrative that highlights the life of Dr. Borlaugh, his contributions to agriculture, and his profound impact on the world.",
-      "page": "norman_tribute.html",
-      "certification": "project-tile__certification",
-      "buttons": [
-        {
-          "title": "Github Repo",
-          "href": "https://github.com/KajenKirubah/TributePageFCC"
-        },
-        {
-          "title": "Website",
-          "href": "https://kajenkirubah.github.io/TributePageFCC/"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Camper Cafe Menu",
-      "description": "Coffee and Desserts",
-      "technologies": ["HTML", "CSS", "JS"],
-      "image": "./assets/images/camper-cafe.png",
-      "textCopy": "**<strong>Work in progress</strong>-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non egestas ipsum, id tempor quam. Vivamus nec dui vitae mauris mollis sollicitudin at at eros. Fusce in enim tristique, aliquet ligula a, convallis nisl. Proin fermentum, ex ut viverra pharetra, turpis nisi sollicitudin est, ut dapibus lacus magna vitae ligula. In sit amet magna sit amet odio euismod lacinia at in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed id congue metus, vitae ullamcorper tortor. Work in progress, aliquet vestibulum nisi quis, volutpat tincidunt tellus.",
-      "page": "camper-cafe.html",
-      "certification": "",
-      "buttons": [
-        {
-          "title": "Github Repo",
-          "href": "https://github.com/KajenKirubah/CamperCafeFCC"
-        },
-        {
-          "title": "Website",
-          "href": "https://kajenkirubah.github.io/CamperCafeFCC/"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Colored Markers",
-      "description": "Red Green and Blue",
-      "technologies": ["HTML", "CSS", "JS"],
-      "image": "./assets/images/CSS Color Markers.png",
-      "textCopy": "**<strong>Work in progress</strong>-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non egestas ipsum, id tempor quam. Vivamus nec dui vitae mauris mollis sollicitudin at at eros. Fusce in enim tristique, aliquet ligula a, convallis nisl. Proin fermentum, ex ut viverra pharetra, turpis nisi sollicitudin est, ut dapibus lacus magna vitae ligula. In sit amet magna sit amet odio euismod lacinia at in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed id congue metus, vitae ullamcorper tortor. Work in progress, aliquet vestibulum nisi quis, volutpat tincidunt tellus.",
-      "page": "css-color-markers.html",
-      "certification": "",
-      "buttons": [
-        {
-          "title": "Github Repo",
-          "href": "https://github.com/KajenKirubah/MarkersFCC"
-        },
-        {
-          "title": "Website",
-          "href": "https://kajenkirubah.github.io/MarkersFCC"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Nutrition Label",
-      "description": "Calories, Fat, Protein, Sugar...",
-      "technologies": ["HTML", "CSS", "JS"],
-      "image": "./assets/images/nutrition label.png",
-      "textCopy": "**<strong>Work in progress</strong>-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non egestas ipsum, id tempor quam. Vivamus nec dui vitae mauris mollis sollicitudin at at eros. Fusce in enim tristique, aliquet ligula a, convallis nisl. Proin fermentum, ex ut viverra pharetra, turpis nisi sollicitudin est, ut dapibus lacus magna vitae ligula. In sit amet magna sit amet odio euismod lacinia at in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed id congue metus, vitae ullamcorper tortor. Work in progress, aliquet vestibulum nisi quis, volutpat tincidunt tellus.",
-      "page": "nutrition-label.html",
-      "certification": "",
-      "buttons": [
-        {
-          "title": "Github Repo",
-          "href": "https://github.com/KajenKirubah/NutritionLabelFCC"
-        },
-        {
-          "title": "Website",
-          "href": "https://kajenkirubah.github.io/NutritionLabelFCC"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Picasso Painting",
-      "description": "3 Musicians Cubism",
-      "technologies": ["HTML", "CSS", "JS"],
-      "image": "./assets/images/Picasso Painting.png",
-      "textCopy": "**<strong>Work in progress</strong>-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non egestas ipsum, id tempor quam. Vivamus nec dui vitae mauris mollis sollicitudin at at eros. Fusce in enim tristique, aliquet ligula a, convallis nisl. Proin fermentum, ex ut viverra pharetra, turpis nisi sollicitudin est, ut dapibus lacus magna vitae ligula. In sit amet magna sit amet odio euismod lacinia at in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed id congue metus, vitae ullamcorper tortor. Work in progress, aliquet vestibulum nisi quis, volutpat tincidunt tellus.",
-      "page": "picasso-painting.html",
-      "certification": "",
-      "buttons": [
-        {
-          "title": "Github Repo",
-          "href": "https://github.com/KajenKirubah/PicassoPaintingFCC"
-        },
-        {
-          "title": "Website",
-          "href": "https://kajenkirubah.github.io/PicassoPaintingFCC"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Registration Form",
-      "description": "A Form to Register your information",
-      "technologies": ["HTML", "CSS", "JS"],
-      "image": "./assets/images/Registration Form.png",
-      "textCopy": "**<strong>Work in progress</strong>-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non egestas ipsum, id tempor quam. Vivamus nec dui vitae mauris mollis sollicitudin at at eros. Fusce in enim tristique, aliquet ligula a, convallis nisl. Proin fermentum, ex ut viverra pharetra, turpis nisi sollicitudin est, ut dapibus lacus magna vitae ligula. In sit amet magna sit amet odio euismod lacinia at in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed id congue metus, vitae ullamcorper tortor. Work in progress, aliquet vestibulum nisi quis, volutpat tincidunt tellus.",
-      "page": "registration-form.html",
-      "certification": "",
-      "buttons": [
-        {
-          "title": "Github Repo",
-          "href": "https://github.com/KajenKirubah/RegistrationFormFCC"
-        },
-        {
-          "title": "Website",
-          "href": "https://kajenkirubah.github.io/RegistrationFormFCC"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "Student Quiz",
-      "description": "Accessibility in a Student Quiz",
-      "technologies": ["HTML", "CSS", "JS"],
-      "image": "./assets/images/Student Quiz.png",
-      "textCopy": "**<strong>Work in progress</strong>-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non egestas ipsum, id tempor quam. Vivamus nec dui vitae mauris mollis sollicitudin at at eros. Fusce in enim tristique, aliquet ligula a, convallis nisl. Proin fermentum, ex ut viverra pharetra, turpis nisi sollicitudin est, ut dapibus lacus magna vitae ligula. In sit amet magna sit amet odio euismod lacinia at in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed id congue metus, vitae ullamcorper tortor. Work in progress, aliquet vestibulum nisi quis, volutpat tincidunt tellus.",
-      "page": "student-quiz.html",
-      "certification": "",
-      "buttons": [
-        {
-          "title": "Github Repo",
-          "href": "https://github.com/KajenKirubah/AccessibilityQuizFCC"
-        },
-        {
-          "title": "Website",
-          "href": "https://kajenkirubah.github.io/AccessibilityQuizFCC"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "Magazine",
-      "description": "2 and 3 column magazine style layout",
-      "technologies": ["HTML", "CSS", "JS"],
-      "image": "./assets/images/magazine.png",
-      "textCopy": "**<strong>Work in progress</strong>-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non egestas ipsum, id tempor quam. Vivamus nec dui vitae mauris mollis sollicitudin at at eros. Fusce in enim tristique, aliquet ligula a, convallis nisl. Proin fermentum, ex ut viverra pharetra, turpis nisi sollicitudin est, ut dapibus lacus magna vitae ligula. In sit amet magna sit amet odio euismod lacinia at in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed id congue metus, vitae ullamcorper tortor. Work in progress, aliquet vestibulum nisi quis, volutpat tincidunt tellus.",
-      "page": "magazine.html",
-      "certification": "",
-      "buttons": [
-        {
-          "title": "Github Repo",
-          "href": "https://github.com/KajenKirubah/MagazineGridFCC"
-        },
-        {
-          "title": "Website",
-          "href": "https://kajenkirubah.github.io/MagazineGridFCC"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "Piano",
-      "description": "A mobile responsive piano",
-      "technologies": ["HTML", "CSS", "JS"],
-      "image": "./assets/images/piano.png",
-      "textCopy": "**<strong>Work in progress</strong>-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non egestas ipsum, id tempor quam. Vivamus nec dui vitae mauris mollis sollicitudin at at eros. Fusce in enim tristique, aliquet ligula a, convallis nisl. Proin fermentum, ex ut viverra pharetra, turpis nisi sollicitudin est, ut dapibus lacus magna vitae ligula. In sit amet magna sit amet odio euismod lacinia at in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed id congue metus, vitae ullamcorper tortor. Work in progress, aliquet vestibulum nisi quis, volutpat tincidunt tellus.",
-      "page": "piano.html",
-      "certification": "",
-      "buttons": [
-        {
-          "title": "Github Repo",
-          "href": "https://github.com/KajenKirubah/PianoFCC"
-        },
-        {
-          "title": "Website",
-          "href": "https://kajenkirubah.github.io/PianoFCC"
-        }
-      ]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Tribute Page",
+    "description": "Certification Project - Dr. Normal Borlaug",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "./assets/images/Dr_NormanBorlaugh_Tribute.jpg",
+    "textCopy": "This HTML and CSS project is more than just a static information page, its also a learning experience that aims to inspire and educate on the life of Dr. Norman Borlaugh.<br/><br/>  Using the power of HTML & CSS, this certification project aims to create a visually pleasing design and narrative that highlights the life of Dr. Borlaugh, his contributions to agriculture, and his profound impact on the world.",
+    "page": "norman_tribute.html",
+    "certification": "project-tile__certification",
+    "buttons": [
+      {
+        "title": "Github Repo",
+        "href": "https://github.com/KajenKirubah/TributePageFCC"
+      },
+      {
+        "title": "Website",
+        "href": "https://kajenkirubah.github.io/TributePageFCC/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Magazine",
+    "description": "2 and 3 column magazine style layout",
+    "technologies": ["HTML", "CSS", "JS"],
+    "image": "./assets/images/magazine.png",
+    "textCopy": "**<strong>Work in progress</strong>-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non egestas ipsum, id tempor quam. Vivamus nec dui vitae mauris mollis sollicitudin at at eros. Fusce in enim tristique, aliquet ligula a, convallis nisl. Proin fermentum, ex ut viverra pharetra, turpis nisi sollicitudin est, ut dapibus lacus magna vitae ligula. In sit amet magna sit amet odio euismod lacinia at in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed id congue metus, vitae ullamcorper tortor. Work in progress, aliquet vestibulum nisi quis, volutpat tincidunt tellus.",
+    "page": "magazine.html",
+    "certification": "",
+    "buttons": [
+      {
+        "title": "Github Repo",
+        "href": "https://github.com/KajenKirubah/MagazineGridFCC"
+      },
+      {
+        "title": "Website",
+        "href": "https://kajenkirubah.github.io/MagazineGridFCC"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Student Quiz",
+    "description": "Accessibility in a Student Quiz",
+    "technologies": ["HTML", "CSS", "JS"],
+    "image": "./assets/images/Student Quiz.png",
+    "textCopy": "**<strong>Work in progress</strong>-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non egestas ipsum, id tempor quam. Vivamus nec dui vitae mauris mollis sollicitudin at at eros. Fusce in enim tristique, aliquet ligula a, convallis nisl. Proin fermentum, ex ut viverra pharetra, turpis nisi sollicitudin est, ut dapibus lacus magna vitae ligula. In sit amet magna sit amet odio euismod lacinia at in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed id congue metus, vitae ullamcorper tortor. Work in progress, aliquet vestibulum nisi quis, volutpat tincidunt tellus.",
+    "page": "student-quiz.html",
+    "certification": "",
+    "buttons": [
+      {
+        "title": "Github Repo",
+        "href": "https://github.com/KajenKirubah/AccessibilityQuizFCC"
+      },
+      {
+        "title": "Website",
+        "href": "https://kajenkirubah.github.io/AccessibilityQuizFCC"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Nutrition Label",
+    "description": "Calories, Fat, Protein, Sugar...",
+    "technologies": ["HTML", "CSS", "JS"],
+    "image": "./assets/images/nutrition label.png",
+    "textCopy": "**<strong>Work in progress</strong>-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non egestas ipsum, id tempor quam. Vivamus nec dui vitae mauris mollis sollicitudin at at eros. Fusce in enim tristique, aliquet ligula a, convallis nisl. Proin fermentum, ex ut viverra pharetra, turpis nisi sollicitudin est, ut dapibus lacus magna vitae ligula. In sit amet magna sit amet odio euismod lacinia at in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed id congue metus, vitae ullamcorper tortor. Work in progress, aliquet vestibulum nisi quis, volutpat tincidunt tellus.",
+    "page": "nutrition-label.html",
+    "certification": "",
+    "buttons": [
+      {
+        "title": "Github Repo",
+        "href": "https://github.com/KajenKirubah/NutritionLabelFCC"
+      },
+      {
+        "title": "Website",
+        "href": "https://kajenkirubah.github.io/NutritionLabelFCC"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Picasso Painting",
+    "description": "3 Musicians Cubism",
+    "technologies": ["HTML", "CSS", "JS"],
+    "image": "./assets/images/Picasso Painting.png",
+    "textCopy": "**<strong>Work in progress</strong>-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non egestas ipsum, id tempor quam. Vivamus nec dui vitae mauris mollis sollicitudin at at eros. Fusce in enim tristique, aliquet ligula a, convallis nisl. Proin fermentum, ex ut viverra pharetra, turpis nisi sollicitudin est, ut dapibus lacus magna vitae ligula. In sit amet magna sit amet odio euismod lacinia at in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed id congue metus, vitae ullamcorper tortor. Work in progress, aliquet vestibulum nisi quis, volutpat tincidunt tellus.",
+    "page": "picasso-painting.html",
+    "certification": "",
+    "buttons": [
+      {
+        "title": "Github Repo",
+        "href": "https://github.com/KajenKirubah/PicassoPaintingFCC"
+      },
+      {
+        "title": "Website",
+        "href": "https://kajenkirubah.github.io/PicassoPaintingFCC"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Registration Form",
+    "description": "A Form to Register your information",
+    "technologies": ["HTML", "CSS", "JS"],
+    "image": "./assets/images/Registration Form.png",
+    "textCopy": "**<strong>Work in progress</strong>-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non egestas ipsum, id tempor quam. Vivamus nec dui vitae mauris mollis sollicitudin at at eros. Fusce in enim tristique, aliquet ligula a, convallis nisl. Proin fermentum, ex ut viverra pharetra, turpis nisi sollicitudin est, ut dapibus lacus magna vitae ligula. In sit amet magna sit amet odio euismod lacinia at in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed id congue metus, vitae ullamcorper tortor. Work in progress, aliquet vestibulum nisi quis, volutpat tincidunt tellus.",
+    "page": "registration-form.html",
+    "certification": "",
+    "buttons": [
+      {
+        "title": "Github Repo",
+        "href": "https://github.com/KajenKirubah/RegistrationFormFCC"
+      },
+      {
+        "title": "Website",
+        "href": "https://kajenkirubah.github.io/RegistrationFormFCC"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Colored Markers",
+    "description": "Red Green and Blue",
+    "technologies": ["HTML", "CSS", "JS"],
+    "image": "./assets/images/CSS Color Markers.png",
+    "textCopy": "**<strong>Work in progress</strong>-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non egestas ipsum, id tempor quam. Vivamus nec dui vitae mauris mollis sollicitudin at at eros. Fusce in enim tristique, aliquet ligula a, convallis nisl. Proin fermentum, ex ut viverra pharetra, turpis nisi sollicitudin est, ut dapibus lacus magna vitae ligula. In sit amet magna sit amet odio euismod lacinia at in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed id congue metus, vitae ullamcorper tortor. Work in progress, aliquet vestibulum nisi quis, volutpat tincidunt tellus.",
+    "page": "css-color-markers.html",
+    "certification": "",
+    "buttons": [
+      {
+        "title": "Github Repo",
+        "href": "https://github.com/KajenKirubah/MarkersFCC"
+      },
+      {
+        "title": "Website",
+        "href": "https://kajenkirubah.github.io/MarkersFCC"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Camper Cafe Menu",
+    "description": "Coffee and Desserts",
+    "technologies": ["HTML", "CSS", "JS"],
+    "image": "./assets/images/camper-cafe.png",
+    "textCopy": "**<strong>Work in progress</strong>-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non egestas ipsum, id tempor quam. Vivamus nec dui vitae mauris mollis sollicitudin at at eros. Fusce in enim tristique, aliquet ligula a, convallis nisl. Proin fermentum, ex ut viverra pharetra, turpis nisi sollicitudin est, ut dapibus lacus magna vitae ligula. In sit amet magna sit amet odio euismod lacinia at in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed id congue metus, vitae ullamcorper tortor. Work in progress, aliquet vestibulum nisi quis, volutpat tincidunt tellus.",
+    "page": "camper-cafe.html",
+    "certification": "",
+    "buttons": [
+      {
+        "title": "Github Repo",
+        "href": "https://github.com/KajenKirubah/CamperCafeFCC"
+      },
+      {
+        "title": "Website",
+        "href": "https://kajenkirubah.github.io/CamperCafeFCC/"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Piano",
+    "description": "A mobile responsive piano",
+    "technologies": ["HTML", "CSS", "JS"],
+    "image": "./assets/images/piano.png",
+    "textCopy": "**<strong>Work in progress</strong>-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non egestas ipsum, id tempor quam. Vivamus nec dui vitae mauris mollis sollicitudin at at eros. Fusce in enim tristique, aliquet ligula a, convallis nisl. Proin fermentum, ex ut viverra pharetra, turpis nisi sollicitudin est, ut dapibus lacus magna vitae ligula. In sit amet magna sit amet odio euismod lacinia at in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed id congue metus, vitae ullamcorper tortor. Work in progress, aliquet vestibulum nisi quis, volutpat tincidunt tellus.",
+    "page": "piano.html",
+    "certification": "",
+    "buttons": [
+      {
+        "title": "Github Repo",
+        "href": "https://github.com/KajenKirubah/PianoFCC"
+      },
+      {
+        "title": "Website",
+        "href": "https://kajenkirubah.github.io/PianoFCC"
+      }
+    ]
+  }
+]
