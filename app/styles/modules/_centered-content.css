@@ -1,7 +1,7 @@
 .centered-content {
     position: relative;
     top: -4%;
-    padding: 1rem;
+    padding: 1rem 2rem;
 
     @mixin atSmall {
         background-color: rgba(0, 0, 0, 0.5);
